@@ -32,7 +32,7 @@
 * To find your docker machines names run ```docker-compose ps ```. You will se a list with two docker machines
 * To access a machine run ``` docker exec -ti [name_of_the_machine] bash ```
 * [NOTE]
-    * If you run in daemon mode if you want to see the logs just run ``` docker-compose logs ``` or ``` docker-compose logs -f ``` for log tail mode
+    * If you run in daemon mode and you want to see the logs just run ``` docker-compose logs ``` or ``` docker-compose logs -f ``` for log tail mode
 
 ##### Goodies pack
 * Countries DB and Seed. Remove these if you don't need them
