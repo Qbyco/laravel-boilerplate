@@ -74,6 +74,8 @@ RUN mv composer.phar /usr/local/bin/composer
 
 WORKDIR /app
 
+COPY ./postconfig.sh /postconfig.sh
+
 EXPOSE 80
 EXPOSE 443
 

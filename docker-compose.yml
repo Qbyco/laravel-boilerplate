@@ -1,6 +1,7 @@
-#Web
+# Web
 web:
   build: ./docker/builds/php_apache
+  command: "bash /postconfig.sh"
   ports:
     - "9009:80"
   volumes:
@@ -8,6 +9,7 @@ web:
   links:
     - mariadb
 
+# Mysql
 mariadb:
   image: mariadb:latest
   ports:

@@ -1,0 +1,10 @@
+web:
+  ports:
+    - "9999:80"
+
+mariadb:
+  environment:
+    MYSQL_ROOT_PASSWORD: your_root_pass
+    MYSQL_DATABASE: your_default_db
+    MYSQL_USER: your_default_user
+    MYSQL_PASSWORD: your_default_pass
